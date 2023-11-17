@@ -1,0 +1,4 @@
+.section_wrap{width: 100%; padding: 100px 20px 140px 20px; min-height: 100vh; background: url(../img/bg.jpg)no-repeat; background-attachment: fixed; background-size: cover; background-position: center;}
+.top{width: 75%; margin: 0 auto;}
+.bot ul{display: flex; flex-wrap: wrap; padding: 80px 20px 0 20px;}
+.bot li{width: 100%; padding: 10px 0;}
