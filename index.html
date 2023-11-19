@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="./css/index.css"/>
 
     <!-- SCRIPT -->
+    <script type="text/javascript" src="./js/index.js"></script> 
+    <!-- <script type="text/javascript" src="http://news.glserver.co.kr/PROJECT/NEWS/page/adm/js/testfile.js"></script> -->
     <!-- <script type="text/javascript" src="common_php/lib/swiper/swiper.min.js<?php echo $version;?>"></script>  -->
     
 
@@ -25,7 +27,7 @@
             </div>
             <div class="bot">
                 <ul>
-                    <li>
+                    <li class="on">
                         <div class="cupon">
                             <img src="./img/c01.png" alt=""/>
                         </div>
@@ -76,6 +78,18 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+        </div>
+        
+        <div class="modal_wrap" style="display: none;">
+            <!-- 디스플레이 논/플렉스 -->
+            <div class="modal">
+                <p>쿠폰을 사용하시겠습니까?</p>      
+                <p>한번 사용하신 쿠폰은 재사용이 불가능합니다.</p>
+                <ul class="btn">
+                    <li class="ok">사용하기</li>
+                    <li class="close">취소</li>
+                </ul>      
             </div>
         </div>
     </div> 
