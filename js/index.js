@@ -37,7 +37,7 @@ const modalOpen = (targetCoupon, targetData) => {
 
 const requestChangeState = (targetData) => {
     const responseChangeState = result => {}
-    fetch("http://news.glserver.co.kr/",{
+    fetch("https://news.glserver.co.kr/",{
         method : "POST",
         body : JSON.stringify({
             ctl : "Product",
@@ -58,7 +58,7 @@ const requestCoupon = () => {
             couponInit(result.value);
         }
     }
-    fetch("http://news.glserver.co.kr/",{
+    fetch("https://news.glserver.co.kr/",{
         method : "POST",
         body : JSON.stringify({
             ctl : "Product",
