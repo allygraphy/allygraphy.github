@@ -10,3 +10,4 @@
 .btn li{width: 50%; color: #fff; padding: 5px; border-radius: 20px; cursor: pointer;}
 .btn li.ok{background-color: #f44336;}
 .btn li.close{background-color: #ccc;}
+.footer{background-color: #452a00; font-size: 14px; color: #fff; padding: 20px;}

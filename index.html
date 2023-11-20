@@ -23,61 +23,65 @@
     <meta property="og:image" content="./img/og.jpg" type="김현진 생일이벤트!"/>
     <meta property="og:url" content="https://allygraphy.github.io/">
 
+    <script type="text/javascript" src="./lib/jquery-3.3.1.min.js"></script>    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
     <div class="wrap">
         <div class="section_wrap">
-            <div class="top">
+            <div class="top" data-aos="fade-up" data-aos-duration="1200">
                 <img src="./img/birth.png" alt=""/>
             </div>
             <div class="bot">
                 <ul>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c01.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c01.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c02.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c02.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c03.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c03.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c04.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c04.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c05.png" alt=""/>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
                         <div class="cupon">
                             <img src="./img/c05.png" alt=""/>
                         </div>
@@ -86,6 +90,14 @@
             </div>
         </div>
         
+        <div class="footer">
+            <p>
+                해당 페이지는 김현진 전용 생일 이벤트 페이지로써 상업적으로 사용되지 않습니다. <br/>
+                해당 쿠폰들은 유효기간이 없으며 원하는 날짜에 사용이 가능합니다.<br/>
+                Copyright 2023. allygraphy. All rights reserved.
+            </p>
+        </div>
+
         <div class="modal_wrap" style="display: none;">
             <!-- 디스플레이 논/플렉스 -->
             <div class="modal">
@@ -98,5 +110,12 @@
             </div>
         </div>
     </div> 
+
+        <script>
+            AOS.init({
+                easing: 'ease-out-cubic'
+            });
+            // aos 라이브러리
+        </script>
    </body>
 </html>
